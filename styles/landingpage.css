@@ -192,7 +192,14 @@
 }
 
 .videos h2 {
+    font-size: 38px;
+    font-weight: 700;
     color: #0B0223;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.videos h2 span {
     font-size: 38px;
     font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -255,7 +262,8 @@
     color: white;
     font-size: 110px;
 }
-.overlay img{
+
+.overlay img {
     width: 50px;
 }
 
@@ -263,11 +271,91 @@
     opacity: 1;
 }
 
-.overlay p{
+.overlay p {
     color: #FF42A5;
 }
 
+/* section play instantly */
 
+.play-instantly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-instantly-title {
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-instantly h2 {
+    color: #0B0223;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: right;
+}
+
+.play-instantly p {
+    color: #534C64;
+    text-align: right;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.play-instantly-content {
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+    width: 320px;
+}
+
+.cowboy {
+    width: 550px;
+    position: relative;
+    left: 330px;
+}
+
+.purple-girl {
+    width: 270px;
+    position: relative;
+    top: 200px;
+    right: 340px;
+}
+
+/* games category */
+.games-category {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oval {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.oval p {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.oval:hover{
+    border: 3px solid #FF42A5;
+    border-radius: 50px;
+    color: #FF42A5;
+    padding: 10px;
+}
+.oval, .oval p:hover{
+    color: #FF42A5;
+}
 
 @media screen and (max-width:576px) {
 
