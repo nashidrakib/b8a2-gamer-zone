@@ -6,6 +6,19 @@
     padding: 0;
 }
 
+.btn {
+    padding: 12px 31px;
+    border-radius: 48px;
+    align-items: flex-start;
+    border: 0;
+    gap: 12px;
+    color: #FFF;
+font-size: 12px;
+font-weight: 600;
+background-color: #FF42A5;
+
+}
+
 /* Header Styles */
 .heading-nav {
     background: #FFF;
@@ -75,14 +88,14 @@
 }
 
 .banner img {
-    width: 500px;
+    width:600px;
 }
 
 .banner-menu {
     background-image: url(/images/background-img.png);
     background-repeat: no-repeat;
-    width: 670px;
-    height: 500px;
+    width: 715px;
+    height: 568px;
     background-size: contain;
     display: flex;
     flex-direction: column;
@@ -93,7 +106,7 @@
 .banner-menu h2 {
     color: #0B0223;
     text-align: center;
-    font-size: 28px;
+    font-size: 36px;
     font-weight: 600;
 }
 
@@ -103,15 +116,29 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 800;
-    font-size: 48px;
+    font-size: 62px;
 }
 
-.banner-menu p{
+.banner-menu p {
+
     color: #534C64;
-text-align: left;
-font-size: 15px;
-font-weight: 500;
-text-transform: lowercase;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: lowercase;
+    padding: 2px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.banner-menu p img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.banner-menu button{
+    margin-top: 20px;
+    margin-right: 9px;
 }
 
 @media screen and (max-width:576px) {
