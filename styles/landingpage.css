@@ -1,0 +1,65 @@
+/* Shared Styles */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+.heading-nav {
+    background: #FFF;
+    height: 80px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    padding-left: 200px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.gamer-logo-purple {
+    color: #FF42A5;
+}
+
+.nav-title img {
+    height: 40px;
+    margin-right: 20px
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    margin-right: 250px;
+}
+
+
+.follow-us-on-btn{
+    font-size: 15px;
+    background-color: rgba(11, 2, 35, 0.10);
+    padding: 10px;
+    border: 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    padding-right: 15px;
+}
+.follow-us-on-btn img{
+    width: 25px;
+    padding-left: 10px;
+    
+}
+.plain-buttons{
+    padding: 15px;
+    border: 0;
+    background-color: #FFF;
+    color: #3C354F;
+    font-size: 15px;
+    font-weight: 500;
+}
