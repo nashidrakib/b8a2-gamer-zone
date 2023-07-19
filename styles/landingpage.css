@@ -13,9 +13,9 @@
     border: 0;
     gap: 12px;
     color: #FFF;
-font-size: 12px;
-font-weight: 600;
-background-color: #FF42A5;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #FF42A5;
 
 }
 
@@ -88,7 +88,7 @@ background-color: #FF42A5;
 }
 
 .banner img {
-    width:600px;
+    width: 600px;
 }
 
 .banner-menu {
@@ -136,22 +136,155 @@ background-color: #FF42A5;
     margin-right: 5px;
 }
 
-.banner-menu button{
+.banner-menu button {
     margin-top: 20px;
     margin-right: 9px;
 }
+
+/* we are gamer section styles */
+
+.we-are-gamer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.we-are-gamer-content {
+    width: 400px;
+    text-align: right;
+}
+
+.we-are-gamer h2 {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.we-are-gamer p {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.we-are-gamer button {
+
+    margin-top: 20px;
+}
+
+.we-are-gamer h3 {
+    text-align: right;
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* videos section styles */
+.videos {
+    text-align: center;
+}
+
+.videos h2 {
+    color: #0B0223;
+    font-size: 38px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.videos p {
+    margin-bottom: 30px;
+    color: #534C64;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card img {
+    max-width: 300px;
+}
+
+.card p {
+    color: #534C64;
+    font-size: 17px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 98%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    border-color: #F948B2;
+    border: 3px solid #F948B2;
+}
+
+.overlay i {
+    color: white;
+    font-size: 110px;
+}
+.overlay img{
+    width: 50px;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay p{
+    color: #FF42A5;
+}
+
+
 
 @media screen and (max-width:576px) {
 
     .heading-nav,
     .nav-title,
-    .nav-menu {
+    .nav-menu,
+    .banner {
         padding: 0;
         margin: 0;
         display: flex;
         flex-direction: column;
         background-color: #FFF;
+    }
 
+    .heading-nav {
+        align-items: center;
+        justify-content: center;
     }
 
     .nav-title {
@@ -175,5 +308,9 @@ background-color: #FF42A5;
     .nav-menu {
         padding: 0;
         margin: 0 auto;
+    }
+
+    .banner {
+        flex-direction: column;
     }
 }
