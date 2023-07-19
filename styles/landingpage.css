@@ -331,8 +331,18 @@
 .games-category {
     height: 350px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-top: 100px;
+}
+
+.row1,.row2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
 }
 
 .oval {
@@ -352,9 +362,15 @@
     border-radius: 50px;
     color: #FF42A5;
     padding: 10px;
+    
 }
-.oval, .oval p:hover{
+.oval:hover p{
     color: #FF42A5;
+}
+/* footer */
+footer{
+    height: 500px;
+    background: #0B0223;
 }
 
 @media screen and (max-width:576px) {
