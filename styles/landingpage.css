@@ -459,6 +459,7 @@ footer {
     /* header styles */
 
     .nav-title {
+        margin-top: 10px;
         gap: 5px;
         justify-content: center;
         align-items: center;
@@ -466,8 +467,6 @@ footer {
     }
 
     .nav-title img {
-        padding-top: 20px;
-        padding-bottom: 20px;
         margin: 0%;
     }
 
