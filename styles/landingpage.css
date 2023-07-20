@@ -577,13 +577,18 @@ footer {
         margin-top: 30px;
         padding-bottom: 60px;
         border: 3px solid rgba(0, 0, 0, 0);
-        padding: 10px;
+        padding: 8px;
         height: 27px;
 
     }
 
     .oval img {
         width: 30px;
+        margin-right: 4px;
+    }
+
+    .oval:hover {
+    padding: 8px;
     }
 
     .oval p {
