@@ -528,15 +528,8 @@ footer {
         width: 30%;
         right: 250px;
         bottom: 0px;
-        top: 4330px;
+        top: 4400px;
     }
-
-    
-
-    .cowboy {
-        
-    }
-
 
     footer {
         width: 100%;
@@ -577,9 +570,6 @@ footer {
         padding-top: 80px;
     }
 
-    
-
-
 
     .videos {
         margin-top: 70px;
@@ -611,14 +601,59 @@ footer {
     .cards,
     .play-instantly,
     .row1,
-    .row2,
-    .we-are-gamer {
+    .row2 {
         flex-direction: column-reverse;
     }
+    /* nav section */
 
+    /* banner styles */
+
+    .banner{
+        margin-bottom: 50px;
+    }
+    .banner>img{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    /* we are gamer section */
+    .we-are-gamer{
+        flex-direction: column;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .we-are-gamer img{
+        width: 95%;
+        margin-bottom: 100px;
+    }
+    .we-are-gamer-content{
+        padding-bottom: 70px;
+    }
+
+    /* videos */
+    .videos{
+        margin-bottom: 0px;
+    }
+
+    /* play instantly section */
     .play-instantly {
         margin-bottom: 700px;
-        margin-top: 200px;
+    }
+
+    .play-instantly-content{
+        justify-content: center;
+    }
+
+    .cowboy {
+        position: absolute;
+        top: 4650px;
+        left: 150px;
+    }
+
+    .purple-girl {
+        position: absolute;
+        top: 4990px;
+        left: 70px;
     }
 
     .card {
@@ -629,18 +664,10 @@ footer {
     }
 
     .we-are-gamer img {
-        width: 100%;
+        
     }
 
-    .cowboy {
-        position: absolute;
-        left: 100px;
-    }
 
-    .purple-girl {
-        position: absolute;
-        top: 4300px;
-    }
 
     .games-category {
         margin-bottom: 50px;
